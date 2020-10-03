@@ -6,7 +6,7 @@ while(counter<=10):
     #here s for snake ,w for water and g for gun stored in list
     game_list=["s","w","g"]
     comp_choice=random.choice(game_list)
-    human_choice=input("Enter Snake for s, Water for w, Gun for g = ")
+    human_choice=input("Enter [S] for Snake, [W] for Water, [G] for Gun = ")
     if comp_choice==human_choice:
         print("Game tie ! ")
         print("Computer_point= ",system_point)
